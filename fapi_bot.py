@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "твой_API_KEY_из_FAPI"
+API_KEY = "6d899f77-35a7-4cfb-a91d-ce981a686ebc"
 BASE_URL = "https://fapi.iisis.ru/fapi/v2/productList"
 
 @app.route("/webhook", methods=["POST"])
